@@ -104,3 +104,7 @@
      "editor.codeActionOnSave":{
         "source.fixAll.eslint":true
      }
+
+...
+
+4. Added React Hot Toast
