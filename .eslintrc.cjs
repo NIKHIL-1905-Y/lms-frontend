@@ -13,9 +13,12 @@ module.exports = {
   plugins: ['react-refresh','simple-import-sort'],
   rules: {
     'simple-import-sort/imports':'error',
+    "rules": {
+      "react/prop-types": 0,
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
     ],
   },
+}
 }
